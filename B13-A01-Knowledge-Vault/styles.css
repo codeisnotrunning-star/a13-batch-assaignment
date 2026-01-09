@@ -11,7 +11,7 @@ nav{
     display: flex;
     justify-content: space-between;
     justify-content: space-around;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     padding: 10px;
     background-color: bisque;
 
@@ -27,75 +27,347 @@ nav{
     text-decoration: none;
     text-align: center;
 }
-.btn-1{
-    
-    background-color: green;
+.btn-1
+{
+    background-color: #469165;
     color: whitesmoke;
-    border-radius: 10px;
-    font: weight bolder; 
-    
+    width: 164px; 
+    height: 44px; 
+    border-radius: 4px;
+    padding: 12px 16px 12px 16px; 
+    gap: 10px;
+    /* font: Inter; */
+    font-weight: 600;    
+    font-style: bold;
+    line-height: 100%;
+    letter-spacing: 0%;
+    size: 16px;
 }
-section{
+section
+{
     gap: 120px;
     text-align: center;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     padding: 80px;
-background-image: url(./assets/hero-bg.png);
-
+     background-image: url(./assets/hero-bg.png);
 }
-.btn-2{
-    color:whitesmoke ;
-    background-color:green ;
-}
-.btn-3{
-    background: transparent;
-}
-h4{
-text-decoration: none;
-list-style: none;
-}
-.hell{
+.head
+{
+    font: Inter;
+    font-weight: 700;
+    font-style:bold;
+    font-size: 72px;
+    line-height: 84px;
+    letter-spacing: 0%;
     text-align: center;
-    padding:20px;
-
 }
-.cards{
+.size a
+{
+    color: #e31717;
+    text-decoration: none;
+    padding-top:0px
+}
+.color
+{
+    font: Inter;
+    font-weight: 400;
+    font: style 16px;;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.btn-2
+{
+    width: 250px;
+    height: 52px;
+    border-radius: 4px;
+    padding: 12px 16px 12px 16px;
+    gap: 10px;
+    color:whitesmoke ;
+    background-color: #30B868;
+}
+.btn-3
+{
+    background: transparent;
+    width: 198px;
+    height: 50px;
+    /* border-radius: 4px #742626; */
+    /* border: 1px #d81f1f;
+    padding: 12px 16px 12px 16px; */
+    gap: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: white;
+}
+
+h4
+{
+    text-align: center;
+    text-decoration: none;
+}
+.hell
+{
+    text-align: center;
+    padding-top: 40px;
+    /* width: 1360px; */
+    height:152px ;
+    gap: 16px;
+}
+.hell h2 
+{
+    max-width: 1350px;
+    margin: auto;
+    font-weight: 700;
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.cards
+{
     display: flex;
-    gap: 15px;
-    justify-content:space-evenly;
-    text-wrap: 120px;
-    background:whitesmoke;
-    border-radius: 10px;
-    border: 10 px;
-    text-align: center;}
-.card{
-    border: 1px solid red;
+    gap: 24px;
+    max-width: 1350px;
+    margin: auto;
+    /* justify-content:space-between; */
+       background:whitesmoke;
+    /* border-radius: 10px; */
+    /* border: 1px solid ; */
+    text-align: center;
+}
+.card
+{
+gap: 16px;
+padding: 24px;
+/* border-radius: 8px; */
+height: 300px;
+width: 322px;
+color: #FAFAFA;
+}
+.card h3
+{
+    size: 24px;
+    font-weight: 600;
+    line-height: 100%;
+    letter-spacing: 0%;
+    font-style: semi-bold;
+    align-items: center;
+    color:#001931;
+    padding: 15px;
+}
+.card p
+{
+    font-size: 16px;
+ line-height:20px ;
+ font-weight: 400;
+ text-align:center;
+ color:#627382 ;
+ padding-top: 15px;
+}
+
+    
+.jannat
+{
+    padding-right: 120px;
+    padding-bottom: 120px;
+padding-left: 120px;
+gap: 44px;
+}
+.card
+{
+    /* border: 1px solid red; */
+
     padding: 30px;
     gap: 10px;
 }
-div .photo{
-    background-color:orange;
+div .photo
+{
+    background-color:rgb(195, 54, 41);
     gap: 10px;
-    border: none;
-    border: 10px;
-}
-.kacchi {
-    display: flex;
-    justify-content: right;
+   border-radius: 115px;
+       border: 10px;
 
 }
-.custom{
+.kacchi 
+{
+    width: 500;
+    max-width: 1350px;
+    margin: auto;
+
+    display: flex;
+    justify-content: right;
+    gap: 30px;
+    background-color: #FAFAFA;
+    padding: 10px;
+
+}
+.custom
+{
 padding-top: 120px;
 }
-.knowledge{
+.custom h5
+{
+    font-weight: 500;
+    font-style: medium;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0%;
+    width: 700px;
+    max-width: 1350px;
+    color: #30B868;
+}
+.custom h1
+{
+    size: 48px;
+    font-style: bold;
+    font-weight: 700;
+    line-height: 100%;
+    color: #001931;
+    gap: 15px;
+}
+.custom p
+{
+    width: 700px;
+    height: 60px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #627382;
+}
+.ronaldo
+{
+    width: 700px;
+    height: 128px;
+    gap: 20px;
+    color:#001931;
+}
+.knowledge
+{
     width: 450px;
 }
-.coder{
+.coder
+{
     content: center;
+    max-width: 1350;
+    margin: auto;
+    height: 380px;
+    border-radius: 12px;
+    padding: 80px 40px 80px 40px;
+    gap: 24px;
+    background-color: #F7F6F2;
 }
-.pro{
-    text-align: center;
+.btn-4
+{
+    width: 198px;
+    height: 50px;
+    padding: 12px 16px 12px 16px;
     gap: 10px;
-    border: 1px solid red;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 100%;
+    letter-spacing: 0%;
+    background-color: #469165;
+    color: #F7F6F2;
+    margin: 10px;
+    
+}
+.pro h5
+{
+    font-weight: 300;
+    font-size: 16px;
+    letter-spacing: 0%;
+    text-align: center;
+    line-height: 24px;
+    color: #627382;
+}
+.rifat p
+{
+    font-size:16px;
+    line-height:20px;
+    font-weight: 400;
+    align-items: center;
+    color: #627382;
+    letter-spacing: 0%;
+}
+.pro
+{
+    text-align:center;
+    gap:10px;
+    /* border:1px solid rgb(75, 10, 10); */
     padding :30px;
 }
+.pro h1
+{
+    padding: 20px;
+}
+.foot
+{
+    max-width: 1350;
+    margin: auto;
+    border-top: 1px;
+    padding: 120px 120px 30px 120px;
+    gap: 80px;
+    background-color:#001931;
+}
+.messi
+{
+    background-color: #001931;
+}
+nav  .class
+{
+background-color: #001931;
+color: #627382;
+}
+.clear
+{
+    background-color: #001931;
+    color: #d1dae2;
+}
+.get
+{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: center;
+    color:#FAFAFA ;
+    gap: 30px;
+
+}
+.warning
+{
+    text-align: center;
+    color: #F7F6F2;
+}
+.global
+{
+    display: flex;
+    gap: 10px;
+    text-decoration: none;
+    list-style: none;
+}
+.btn-1:hover{
+    color:black;
+
+}
+.btn-2:hover{
+    color:black;
+
+}
+.btn-3:hover{
+    color:black;
+
+}
+.btn-4:hover{
+    color:black;
+
+}
+.btn-5:hover{
+    color:black;
+
+}
+ 
