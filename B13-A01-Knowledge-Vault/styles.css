@@ -28,7 +28,7 @@ nav{
     text-align: center;
 }
 .btn-1{
-    padding: ;
+    
     background-color: green;
     color: whitesmoke;
     border-radius: 10px;
@@ -53,4 +53,29 @@ image-repeat: no-repeat;
 h4{
 text-decoration: none;
 list-style: none;
+}
+.hell{
+    text-align: center;
+    padding:20px;
+
+}
+.cards{
+    display: flex;
+    gap: 15px;
+    justify-content:space-evenly;
+    text-wrap: 120px;
+    background:whitesmoke;
+    border-radius: 10px;
+    border: 10 px;
+    text-align: center;}
+.card{
+    border: 1px solid red;
+    padding: 30px;
+    gap: 10px;
+}
+div .photo{
+    background-color:orange;
+    gap: 10px;
+    border: none;
+    border border-radius: 10px;
 }
