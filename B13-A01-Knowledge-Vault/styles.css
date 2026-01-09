@@ -41,7 +41,7 @@ section{
     border: 1px solid red;
     padding: 80px;
 background-image: url(./assets/hero-bg.png);
-image-repeat: no-repeat;
+
 }
 .btn-2{
     color:whitesmoke ;
@@ -77,5 +77,25 @@ div .photo{
     background-color:orange;
     gap: 10px;
     border: none;
-    border border-radius: 10px;
+    border: 10px;
+}
+.kacchi {
+    display: flex;
+    justify-content: right;
+
+}
+.custom{
+padding-top: 120px;
+}
+.knowledge{
+    width: 450px;
+}
+.coder{
+    content: center;
+}
+.pro{
+    text-align: center;
+    gap: 10px;
+    border: 1px solid red;
+    padding :30px;
 }
